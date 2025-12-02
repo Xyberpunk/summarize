@@ -1,9 +1,12 @@
 {
-  "name": "meeting-summarizer-server",
+  "name": "meeting-summarizer",
   "version": "1.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node server.js"
+    "dev": "node api/summarize.js",
+    "start": "node api/summarize.js",
+    "build": "echo \"no build step\""
   },
   "dependencies": {
     "dotenv": "^16.4.5"
